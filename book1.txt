@@ -1,0 +1,38 @@
+Part 1:
+---> iOS SDK, Swift, and Objective-C
+--- General Swift and Objective-C language features
+--- Working with Data
+--- Memory Mangement
+--- Threading
+
+---
+1. General Swift and Objective-C language features
+---
+Q   What is var and let?
+A   These are Swift keywords to declare a variable and a constant.
+---
+Q   What are value and reference types in Swift
+A   A value type contains the data within its own memory.
+A   reference type holds a pointer to another memory location that holds the actual data.
+---
+Q   Explain the difference between struct and class in Swift
+A   Structs are value types whereas classes are reference types.
+When you copy a struct, you end up with two unique copies of the data.
+When you copy a class, you end up with two references to one instance of the data.
+---
+Q   What is the guard statement in Swift?
+A   It's a syntax that allows us to exit early from a function or method if some condition is not met.
+It also allows us to avoid nested if let statements, also called the pyramid of doom.
+---
+Q   What does final mean?
+A   It's a Swift keyword. By marking a class final, we specify that it cannot and should not be extended.
+By applying it to a method, we specify that it cannot and should not be overriden by subclasses.
+---
+Q   What does defer mean?
+A   It's a Swift keyword.
+We use defer around a  block of code to specify that it should be executed in the case when execution is leaving the current scope.
+---
+Q   What does lazy mean?
+A   It's a Swift keyword.
+It means that the initial value of the lazy stored property will be set whenever the property will be used for the first time.
+---
