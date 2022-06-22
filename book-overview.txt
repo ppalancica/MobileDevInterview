@@ -1,0 +1,27 @@
+Part 1:
+---> iOS SDK, Swift, and Objective-C
+--- General Swift and Objective-C language features
+--- Working with Data
+--- Memory Mangement
+--- Threading
+
+Part 2:
+---> Views and User Interfaces development
+--- UIKit
+--- AutoLayout
+--- SwiftUI
+
+Part 3:
+---> Data Structures and Algorithms
+--- Overview of Data Structures and Algorithms
+--- Apply Data Structures and Algorithms in Interviews
+
+Part 4:
+---> Design Patterns and Architecure
+
+Part 5:
+---> Systems Design and Unit Testing
+
+BONUS:
+---> Solution to different practical problems
+---> Implementing different UI components
